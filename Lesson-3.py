@@ -14,3 +14,4 @@ example=['Good','Yeti','Join']
 example_join=', '.join(example)
 print(example_join)
 print(example_join.startswith('Good'))
+print(example_join.center(100))
