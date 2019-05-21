@@ -1,1 +1,4 @@
-print(str(98.6))
+print('\tabc')
+print('a\tbc')
+print('ab\tc')
+print('abc\t')
