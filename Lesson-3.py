@@ -38,7 +38,7 @@ for x in list:
 a=[1,2,3,5,6,10,102]
 for x in a:
     w=x*2
-    print(w)"""
+    print(w)
 f = open("text.txt","r")
 s= f.readline()
 while s:
@@ -51,4 +51,10 @@ f.write("This is third commit"+"\n")
 f.close()
 sad= 'Ваня, Таня, Алёна'
 sad.split()
-print(sad.isdigit())
+print(sad.isdigit())"""
+def delmat(s):
+    spisok=['Пофиг','Скучно','Отвратительно']
+    for x in spisok:
+        s = s.replace(x,'*****')
+    return s
+print(delmat('Пофиг как мне на всякие там дела, очень Скучно и Отвратительно'))
