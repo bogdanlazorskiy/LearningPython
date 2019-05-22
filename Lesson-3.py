@@ -21,3 +21,9 @@ f = input('Введите второе число: ')
 g = int(f)
 print((g*c)+10)
 print(c)
+if ( c > 10 ):
+    count_book=input('Введите кол-во книг ')
+    print(count_book)
+else:
+    count_magazine=input('Введите кол-во журналов ')
+    print(count_magazine)
