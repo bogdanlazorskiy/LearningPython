@@ -1,4 +1,4 @@
-print('\tabc')
+"""print('\tabc')
 print('a\tbc')
 print('ab\tc')
 print('abc\t')
@@ -24,6 +24,18 @@ print(c)
 if ( c > 10 ):
     count_book=input('Введите кол-во книг ')
     print(count_book)
-else:
+elif(c<=10):
     count_magazine=input('Введите кол-во журналов ')
     print(count_magazine)
+else:
+    print('this is good idea')"""
+list=[]
+list.append('One')
+list.append('Two')
+list.append('Three')
+for x in list:
+    print(x)
+a=[1,2,3,5,6,10,102]
+for x in a:
+    w=x*2
+    print(w)
