@@ -28,7 +28,7 @@ elif(c<=10):
     count_magazine=input('Введите кол-во журналов ')
     print(count_magazine)
 else:
-    print('this is good idea')"""
+    print('this is good idea')
 list=[]
 list.append('One')
 list.append('Two')
@@ -38,4 +38,14 @@ for x in list:
 a=[1,2,3,5,6,10,102]
 for x in a:
     w=x*2
-    print(w)
+    print(w)"""
+f = open("text.txt","r")
+s= f.readline()
+while s:
+    print(s)
+    s=f.readline()
+f.close()
+f = open("text.txt","a")
+f.write("New commit"+"\n")
+f.write("This is third commit"+"\n")
+f.close()
