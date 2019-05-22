@@ -49,3 +49,6 @@ f = open("text.txt","a")
 f.write("New commit"+"\n")
 f.write("This is third commit"+"\n")
 f.close()
+sad= 'Ваня, Таня, Алёна'
+sad.split()
+print(sad.isdigit())
