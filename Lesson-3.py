@@ -58,3 +58,17 @@ def delmat(s):
         s = s.replace(x,'*****')
     return s
 print(delmat('Пофиг как мне на всякие там дела, очень Скучно и Отвратительно'))
+sum = 0
+for i in range(1,101):
+    sum+=i
+print(sum)
+
+#0 1 1 2 3 5 8 ... ***
+a=0
+b=1
+print(a)
+print(b)
+while(a+b<100):
+    b=a+b
+    a=b-a
+    print(b)
